@@ -4,34 +4,72 @@
 function devolverString(string) {
    // Debe retornar un string.
    // Tu código:
+   return string;
 }
+devolverString("chau")
 
 // ⛔️ "X" e "Y" son números.
 
 function suma(x, y) {
    // Retorna el resultado de su suma.
    // Tu código:
+
+   resultado = x + y; 
+
+   return resultado 
 }
+
+suma(3,5);
 
 function resta(x, y) {
    // Retorna el resultado de la resta.
    // Tu código:
+
+   resultadoResta = x - y 
+
+   return resultadoResta
 }
+
+resta(8,6);
+
 
 function divide(x, y) {
    // Retorna el resultado de su división.
    // Tu código:
+
+   division = x / y;
+
+   return division
+
 }
+
+divide(10,2); 
+
 
 function multiplica(x, y) {
    // Retorna el resultado de su multiplicación.
    // Tu código:
+
+multiplicacion = x * y;
+
+return multiplicacion
+
 }
+
+multiplica(2,7); 
+
 
 function obtenerResto(x, y) {
    // Obten el resto de la división de "x" entre "y".
    // Tu código:
+
+ resto = x % y; 
+
+ return resto
+
 }
+
+obtenerResto(20,4); 
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
