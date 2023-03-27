@@ -236,9 +236,8 @@ describe('JAVASCRIPT IV', function () {
       };
 
       it("Debe agregar la propiedad 'calcularPrecioDescuento' al objetoProducto", function () {
-         expect(
-            agregarMetodoCalculoDescuento(storeItem).calcularPrecioDescuento
-         ).toBeDefined();
+         const lala = agregarMetodoCalculoDescuento(storeItem);
+         expect(agregarMetodoCalculoDescuento(storeItem).calcularPrecioDescuento).toBeDefined();
          expect(
             agregarMetodoCalculoDescuento(storeItem2).calcularPrecioDescuento
          ).toBeDefined();
